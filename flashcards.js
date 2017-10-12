@@ -20,9 +20,26 @@ console.log(q5.front);
 console.log(q5.back);
 
 
-var q6 = new ClozeCard();
-var q7 = new ClozeCard();
-var q8 = new ClozeCard();
-var q9 = new ClozeCard();
-var q10 = new ClozeCard();
+var q6 = new ClozeCard("Michael Crichton is the author of Jurassic Park", "Michael Crichton");
+var q7 = new ClozeCard("Joshua Gunn is the author of Speech Craft", "Joshua Gunn");
+var q8 = new ClozeCard("Elizabeth Wardle is the author of Writing About Writing", "Elizabeth Wardle");
+var q9 = new ClozeCard("Stephen King is the author of It", "Stephen King");
+var q10 = new ClozeCard("Fran Lebowitz is the author of Social Studies", "Fran Lebowitz");
+
+console.log(q6.text);
+console.log(q6.cloze);
+console.log(q6.partial);
+console.log(q7.text);
+console.log(q7.cloze);
+console.log(q7.partial);
+console.log(q8.text);
+console.log(q8.cloze);
+console.log(q8.partial);
+console.log(q9.text);
+console.log(q9.cloze);
+console.log(q9.partial);
+console.log(q10.text);
+console.log(q10.cloze);
+console.log(q10.partial);
+
 

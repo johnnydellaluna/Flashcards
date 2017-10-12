@@ -1,7 +1,7 @@
-function ClozeCard(text, close) {
+function ClozeCard(text, cloze) {
+	this.text = text	
 	this.cloze = cloze;
-	this.text = text;
-	this.partial = text.replace(cloze, '...');
+	this.partial = text.replace(cloze, '...');	
 }
 
 module.exports = ClozeCard;
